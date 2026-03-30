@@ -1,0 +1,19 @@
+{
+  "name": "sprs",
+  "version": "1.0.0",
+  "description": "SPRS Playwright Test Automation Framework",
+  "scripts": {
+    "test": "npx playwright test --project=headed",
+    "test:headless": "npx playwright test --project=headless",
+    "test:e2e": "npx playwright test --project=headed tests/e2e/",
+    "test:api": "npx playwright test --project=headed tests/api/",
+    "test:all": "npx playwright test",
+    "report": "npx playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.58.2",
+    "@types/node": "^25.4.0",
+    "dotenv": "^16.5.0",
+    "typescript": "^5.8.3"
+  }
+}

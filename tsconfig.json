@@ -1,0 +1,32 @@
+{
+  // TypeScript config for Playwright test framework.
+  // Playwright compiles .ts automatically -- this is primarily for IDE support.
+  // You do NOT need to run `tsc` manually before running tests.
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "outDir": "./dist",
+    "baseUrl": ".",
+    "paths": {
+      "@pages/*": ["pages/*"],
+      "@api/*": ["api/*"],
+      "@fixtures/*": ["fixtures/*"],
+      "@support/*": ["support/*"]
+    }
+  },
+  "include": [
+    "pages/**/*.ts",
+    "api/**/*.ts",
+    "fixtures/**/*.ts",
+    "support/**/*.ts",
+    "tests/**/*.ts",
+    "playwright.config.ts"
+  ],
+  "exclude": ["node_modules", "dist"]
+}
