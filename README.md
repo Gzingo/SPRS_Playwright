@@ -1,6 +1,6 @@
 # SPRS - Playwright Test Automation Framework
 
-Test automation framework for SPRS (Strategic Planning and Reporting System), a Serbian document management system. Built with Playwright and TypeScript using Page Object Model architecture.
+Test automation framework for SPRS (Strategic Planning and Reporting System), a document management system. Built with Playwright and TypeScript using Page Object Model architecture.
 
 ## Tech Stack
 
